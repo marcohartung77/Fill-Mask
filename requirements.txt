@@ -1,0 +1,16 @@
+streamlit==1.39.0
+
+# HF + Tokenizer
+transformers==4.44.2
+tokenizers==0.19.1
+huggingface-hub==0.24.6
+safetensors==0.4.3
+accelerate==0.33.0
+sentencepiece==0.2.0
+
+# CPU-PyTorch (keine CUDA)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.4.1+cpu
+
+# CSV/PDF optional (falls du CSV nutzt, genügt pandas – PDF ist hier nicht zwingend)
+pandas==2.2.2
